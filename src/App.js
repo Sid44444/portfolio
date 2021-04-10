@@ -1,23 +1,11 @@
 
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      
-        <p>
-          This is going to be my portfolio
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+     <h2>My Portfolio</h2>
     </div>
   );
 }
